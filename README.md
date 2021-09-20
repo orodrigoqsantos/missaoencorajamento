@@ -1,2 +1,2 @@
 # missaoencorajamento
-Site desenvolvido por mim para demonstrar uma página para a Igreja Missão Encorajamento
+Site desenvolvido por mim para demonstrar uma página para a Igreja Missão Encorajamento!
