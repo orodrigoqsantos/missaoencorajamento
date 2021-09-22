@@ -13,12 +13,13 @@
 
 body {
     background-color: black;
+    width: 100%;
 }
 
 body .logo {
     width: var(--logo-width);
     border-radius: 30px;
-    margin: 8px 162px 8px 54px;
+    margin: 8px 0px 8px 0px;
 }
 
 body header {
@@ -27,8 +28,26 @@ body header {
     display: inline-flex;
 }
 
+body header #header-components {
+    display: inline-flex;
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+}
+
 body .menu {
-    margin: auto 0;
+    margin: auto;
+}
+
+body .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+body .menu li {
+    display: inline;
+    float: left;
 }
 
 body .menu a {
@@ -42,4 +61,14 @@ body .menu a {
 body .menu a:hover {
     color: black;
     font-weight: bold;
+}
+
+#site-content {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0px auto;
+}
+
+#site-content #video-casa-nova {
+    color: aliceblue;
 }
